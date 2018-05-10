@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-edge-protect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple cordova plugin to add Edge Protect to prevent system gestures over app specific gestures.",
   "main": "index.js",
   "scripts": {
