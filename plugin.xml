@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-edge-protect" version="1.0.0">
+    <name>Cordova Edge Protect</name>
+    <description>The screen edges for which you want your gestures to take precedence over the system gestures</description>
+    <license>MIT License</license>
+    <keywords>cordova,ios,edge</keywords>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaEdgeProtectPlugin">
+                <param name="ios-package" value="CordovaEdgeProtectPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVEdgeProtectPlugin.h" />
+        <source-file src="src/ios/CDVEdgeProtectPlugin.m" />
+    </platform>
+</plugin>
