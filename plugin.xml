@@ -12,7 +12,7 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <header-file src="src/ios/CDVEdgeProtectPlugin.h" />
-        <source-file src="src/ios/CDVEdgeProtectPlugin.m" />
+        <header-file src="src/ios/CDVEdgeProtect.h" />
+        <source-file src="src/ios/CDVEdgeProtect.m" />
     </platform>
 </plugin>
